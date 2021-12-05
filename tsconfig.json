@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "commonjs",
+    "allowJs": true,
+    "checkJs": true,
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "./js",
+    "rootDir": "./",
+    "noEmit": false,
+    "importHelpers": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noEmitHelpers": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@ugradid/sdk": [
+        "./src"
+      ]
+    }
+  },
+  "exclude": [],
+  "include": [
+    "./src/**/*"
+  ],
+  "typedocOptions": {
+    "mode": "library",
+    "excludeNotExported": true,
+    "excludePrivate": true,
+    "includeDeclarations": true,
+    "excludeExternals": true,
+    "includeVersion": true,
+    "out": "docs/api"
+  }
+}

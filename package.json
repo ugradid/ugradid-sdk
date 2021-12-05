@@ -1,0 +1,17 @@
+{
+  "name": "ugradid-sdk",
+  "version": "0.1.0",
+  "main": "js/index.js",
+  "files": [
+    "js/"
+  ],
+  "dependencies": {
+    "ugradid-lib": "../ugradid-lib"
+  },
+  "peerDependencies": {
+    "ugradid-lib": "../ugradid-lib"
+  },
+  "scripts": {
+    "build": "tsc --rootDir src -p ."
+  }
+}
